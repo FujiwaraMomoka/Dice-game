@@ -9,5 +9,7 @@ class daice {
     System.out.println("Die 2: " + two);
     int total = one + two;
     System.out.println("Total value: " + total);
+    if(total>7) System.out.println("You won!");
+    else System.out.println("You lost");
   }
 }
